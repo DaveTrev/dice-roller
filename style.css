@@ -1,0 +1,106 @@
+p {
+    margin:0;
+  }
+  
+  body {
+    background: #2b2d42;
+    font-family:'Noto Sans JP', sans-serif;
+  }
+  
+  a {
+    color:#FFF;
+    text-decoration:none;
+  }
+  .wrapper {
+    max-width: 300px;
+    margin:10% auto;  
+  }
+  
+  .row {
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  
+  .win-text {
+    text-align:center;
+    font-weight:800;
+    font-size:3em;
+    margin-bottom:1em;
+    color:#edf2f4;
+  }
+  
+  .dice {
+    width:120px;
+    height:120px;
+    background:#ef233c;
+    display:inline-block;
+    color:#e0fbfc;
+    font-size:30px;
+    text-align:center;
+    border-radius:10px;
+    margin:0 0.2em;
+  }
+  
+  .dice h1 {
+    margin-bottom:0;
+    font-size:32px;
+    font-weight: 800;
+  }
+  
+  .button {
+    text-align:center; 
+  }
+  
+  button {
+    border:0;
+    border-color:0;
+    padding:0.6em 0.8em;
+    background:#8d99ae;
+    margin:2em 0;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size:1em;
+    text-transform:uppercase;
+    font-weight:800;
+    color:#edf2f4;
+    border-radius:3px;
+  }
+  
+  button:hover {
+    background:#ef233c;
+    cursor:pointer;
+  }
+  
+  .link {
+    text-align:center;
+  }
+  
+  #bulletNumber, #bulletNumberTwo {
+    color: #d90429;
+  }
+  
+  .bullet1::after {
+    content: "•";
+  }
+  
+  .bullet2::after {
+    content: "••";
+  }
+  
+  .bullet3::after {
+    content: "•••";
+  }
+  
+  .bullet4::after {
+    content: "••••";
+  }
+  
+  .bullet5::after {
+    content: "•••••";
+  }
+  
+  .bullet6::after {
+    content: "••••••";
+  }
